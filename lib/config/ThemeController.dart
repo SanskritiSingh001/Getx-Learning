@@ -9,7 +9,7 @@ class Themecontroller extends GetxController{
     currentTheme();
     super.onInit();
   }
-
+  // current theme setter
   void currentTheme() {
     isDarkMode.value = Get.isDarkMode;
   }
